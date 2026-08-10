@@ -6,7 +6,7 @@ Most of it lands in one of three places.
 
 **[mdm.tools](https://mdm.tools)** — Free browser-based builders for Mac admins. Generate dockutil commands, swiftDialog configs, PPPC profiles, Jamf smart groups, and firewall profiles without installing anything or signing up for anything. Also home to Field Notes, below.
 
-**[macadmin-toolbox](https://github.com/r4828/macadmin-toolbox)** — MIT-licensed Jamf Pro and vendor-neutral MDM scripts. Two extension attributes shipped so far: an AI software inventory that reports which assistants are actually installed on a Mac, and an Intel app auditor that finds what still hasn't gone native. Each one ships with an installer, a LaunchDaemon, a PPPC profile, and tests. Pull requests are the whole point of the repo.
+**[macadmin-toolbox](https://github.com/r4828/macadmin-toolbox)** — MIT-licensed Jamf Pro and vendor-neutral MDM scripts that run on any Jamf tier with no external dependencies. Two extension attributes so far. One finds shadow AI across a fleet: desktop apps, CLI coding agents, editor and browser extensions, and MCP configuration, reported into the computer record so you can scope Smart Groups off it. The other inventories Intel-only application bundles ahead of the Rosetta 2 wind-down, and degrades to a partial-scan status rather than ever reporting a false clean zero. Both ship with an installer, a launchd collector, and tests. Pull requests are the whole point of the repo.
 
 **[ci-workflows](https://github.com/r4828/ci-workflows)** — Reusable GitHub Actions workflows shared across my repositories: secret scanning and workflow auditing.
 
