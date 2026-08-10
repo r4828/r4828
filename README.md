@@ -15,6 +15,16 @@ Most of it lands in one of three places.
 Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and mostly about the gap between what the documentation says and what the fleet does.
 
 <!-- FIELD-NOTES:START -->
+- **[Platform SSO FileVault Unlock: No VPN or Relay](<https://mdm.tools/blog/platform-sso-filevault-network-relay/>)** · 2026-08-03  
+  Apple names three Platform SSO features that must reach the identity provider before FileVault unlock, and rules out VPN, Network Relay, and 802.1X.
+- **[Platform SSO: Passwordless, MFA, Local Password](<https://mdm.tools/blog/platform-sso-not-passwordless/>)** · 2026-07-23  
+  Platform SSO can be passwordless and meet MFA requirements, but local-password, policy, and recovery behavior depend on the method.
+- **[macOS Agent Removal: Build the Uninstaller First](<https://mdm.tools/blog/build-the-uninstaller-first/>)** · 2026-07-21  
+  Before a macOS security-agent rollout, test removal in dependency order: system extension, PPPC profile, launch daemons, and app bundle.
+- **[Local Mac Password Hash Cracking: Controls](<https://mdm.tools/blog/macos-local-password-hash-cracking/>)** · 2026-07-20  
+  Local Mac password cracking has two stages: copying the verifier and guessing offline. FileVault and password strength address each stage.
+- **[CrashStealer: macOS Infostealer Fleet Defenses](<https://mdm.tools/blog/crashstealer-fleet-defenses/>)** · 2026-07-16  
+  CrashStealer passed Gatekeeper and stole login-keychain and browser credentials in the user session. Detect its on-device signals.
 <!-- FIELD-NOTES:END -->
 
 ## What I'm working on
