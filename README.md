@@ -15,6 +15,8 @@ Most of it lands in one of three places.
 Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and mostly about the gap between what the documentation says and what the fleet does.
 
 <!-- FIELD-NOTES:START -->
+- **[Rosetta Deprecation Notice: Why It Rarely Fires](<https://mdm.tools/blog/rosetta-notice-is-not-an-inventory/>)** · 2026-08-12  
+  The macOS 26.4 Rosetta notice sits behind a game filter, rate limits and a server-delivered policy. Apple documents that Intel plug-ins may not trigger it.
 - **[Encrypted HFS+ Time Machine in macOS 28](<https://mdm.tools/blog/encrypted-hfs-time-machine-macos-28/>)** · 2026-08-10  
   Apple documents two fixes for encrypted Mac OS Extended volumes and excludes Time Machine backup disks from both. What is left is a new lineage.
 - **[Age Signal Laws vs Managed Macs: AB 1043](<https://mdm.tools/blog/age-signal-laws-managed-macs/>)** · 2026-08-06  
@@ -23,8 +25,6 @@ Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and m
   Apple states device managers cannot configure local network privacy using MDM. Local Network is not a PPPC service, and no reset returns it to undetermined.
 - **[Platform SSO FileVault Unlock: No VPN or Relay](<https://mdm.tools/blog/platform-sso-filevault-network-relay/>)** · 2026-08-03  
   Apple names three Platform SSO features that must reach the identity provider before FileVault unlock, and rules out VPN, Network Relay, and 802.1X.
-- **[Platform SSO: Passwordless, MFA, Local Password](<https://mdm.tools/blog/platform-sso-not-passwordless/>)** · 2026-07-23  
-  Platform SSO can be passwordless and meet MFA requirements, but local-password, policy, and recovery behavior depend on the method.
 <!-- FIELD-NOTES:END -->
 
 ## What I'm working on
