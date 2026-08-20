@@ -15,6 +15,8 @@ Most of it lands in one of three places.
 Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and mostly about the gap between what the documentation says and what the fleet does.
 
 <!-- FIELD-NOTES:START -->
+- **[macOS 27 App Data Protection: No Schema Key](<https://mdm.tools/blog/xprotect-app-data-protection-macos-27/>)** · 2026-08-16  
+  Apple ships a file access policy through XProtect. On the macOS 27 beta, sandboxd looks for a different filename, ignores it, and runs its own built-in rules.
 - **[Rosetta Deprecation Notice: Why It Rarely Fires](<https://mdm.tools/blog/rosetta-notice-is-not-an-inventory/>)** · 2026-08-12  
   The macOS 26.4 Rosetta notice sits behind a game filter, rate limits and a server-delivered policy. Apple documents that Intel plug-ins may not trigger it.
 - **[Encrypted HFS+ Time Machine in macOS 28](<https://mdm.tools/blog/encrypted-hfs-time-machine-macos-28/>)** · 2026-08-10  
@@ -23,8 +25,6 @@ Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and m
   Texas went live in June, California follows in January, Illinois in 2028. Apple implements all five through one API, and an ADE-enrolled Mac is outside it.
 - **[Local Network Privacy: No MDM Payload Exists](<https://mdm.tools/blog/local-network-privacy-no-mdm-payload/>)** · 2026-08-05  
   Apple states device managers cannot configure local network privacy using MDM. Local Network is not a PPPC service, and no reset returns it to undetermined.
-- **[Platform SSO FileVault Unlock: No VPN or Relay](<https://mdm.tools/blog/platform-sso-filevault-network-relay/>)** · 2026-08-03  
-  Apple names three Platform SSO features that must reach the identity provider before FileVault unlock, and rules out VPN, Network Relay, and 802.1X.
 <!-- FIELD-NOTES:END -->
 
 ## What I'm working on
