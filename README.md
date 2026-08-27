@@ -15,6 +15,8 @@ Most of it lands in one of three places.
 Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and mostly about the gap between what the documentation says and what the fleet does.
 
 <!-- FIELD-NOTES:START -->
+- **[A Change Feed Is Not a Desired State](<https://mdm.tools/blog/change-feed-is-not-a-desired-state/>)** · 2026-08-26  
+  Google Workspace, Linear, and Jamf Pro each answer 'what changed' differently, and none of them tell you what the approved configuration was supposed to be.
 - **[macOS 27 App Data Protection: No Schema Key](<https://mdm.tools/blog/xprotect-app-data-protection-macos-27/>)** · 2026-08-16  
   Apple ships a file access policy through XProtect. On the macOS 27 beta, sandboxd looks for a different filename, ignores it, and runs its own built-in rules.
 - **[Rosetta Deprecation Notice: Why It Rarely Fires](<https://mdm.tools/blog/rosetta-notice-is-not-an-inventory/>)** · 2026-08-12  
@@ -23,8 +25,6 @@ Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and m
   Apple documents two fixes for encrypted Mac OS Extended volumes and excludes Time Machine backup disks from both. What is left is a new lineage.
 - **[Age Signal Laws vs Managed Macs: AB 1043](<https://mdm.tools/blog/age-signal-laws-managed-macs/>)** · 2026-08-06  
   Texas went live in June, California follows in January, Illinois in 2028. Apple implements all five through one API, and an ADE-enrolled Mac is outside it.
-- **[Local Network Privacy: No MDM Payload Exists](<https://mdm.tools/blog/local-network-privacy-no-mdm-payload/>)** · 2026-08-05  
-  Apple states device managers cannot configure local network privacy using MDM. Local Network is not a PPPC service, and no reset returns it to undetermined.
 <!-- FIELD-NOTES:END -->
 
 ## What I'm working on
