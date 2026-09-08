@@ -15,6 +15,8 @@ Most of it lands in one of three places.
 Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and mostly about the gap between what the documentation says and what the fleet does.
 
 <!-- FIELD-NOTES:START -->
+- **[macOS 27 Gives XProtect Exactly One MDM Key](<https://mdm.tools/blog/xprotect-management-surface-macos-27/>)** · 2026-09-04  
+  macOS 27 exposes exactly one XProtect MDM key, and it governs a malware upload prompt. The file access policy XProtect now enforces has no documented key.
 - **[A Change Feed Is Not a Desired State](<https://mdm.tools/blog/change-feed-is-not-a-desired-state/>)** · 2026-08-26  
   Google Workspace, Linear, and Jamf Pro each answer 'what changed' differently, and none of them tell you what the approved configuration was supposed to be.
 - **[macOS 27 App Data Protection: No Schema Key](<https://mdm.tools/blog/xprotect-app-data-protection-macos-27/>)** · 2026-08-16  
@@ -23,8 +25,6 @@ Write-ups from [mdm.tools/blog](https://mdm.tools/blog/). Short, specific, and m
   The macOS 26.4 Rosetta notice sits behind a game filter, rate limits and a server-delivered policy. Apple documents that Intel plug-ins may not trigger it.
 - **[Encrypted HFS+ Time Machine in macOS 28](<https://mdm.tools/blog/encrypted-hfs-time-machine-macos-28/>)** · 2026-08-10  
   Apple documents two fixes for encrypted Mac OS Extended volumes and excludes Time Machine backup disks from both. What is left is a new lineage.
-- **[Age Signal Laws vs Managed Macs: AB 1043](<https://mdm.tools/blog/age-signal-laws-managed-macs/>)** · 2026-08-06  
-  Texas went live in June, California follows in January, Illinois in 2028. Apple implements all five through one API, and an ADE-enrolled Mac is outside it.
 <!-- FIELD-NOTES:END -->
 
 ## What I'm working on
